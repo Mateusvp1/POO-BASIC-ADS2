@@ -1,0 +1,14 @@
+import javax.swing.*;
+
+public class tarefa3 {
+    public static void main(String[] args) {
+        String numero1 = JOptionPane.showInputDialog(null, "Digite o Primeiro numero :", "Entrada", JOptionPane.QUESTION_MESSAGE);
+        System.out.println(numero1);
+        String numero2 = JOptionPane.showInputDialog(null, "Digite o Segundo numero :", "Entrada", JOptionPane.QUESTION_MESSAGE);
+        System.out.println(numero2);
+        int numero01 = Integer.parseInt(numero1);
+        int numero02 = Integer.parseInt(numero2);
+        int resultado = numero01+numero02;
+        JOptionPane.showMessageDialog(null, "Esse é o resultado da soma:"+resultado , "Mensagem", JOptionPane.ERROR_MESSAGE);
+    }
+}
