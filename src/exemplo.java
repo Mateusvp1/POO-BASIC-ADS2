@@ -7,6 +7,6 @@ public class exemplo {
         String sobrenome = JOptionPane.showInputDialog(null, "Digite o Sobrenome :", "Entrada", JOptionPane.QUESTION_MESSAGE);
         System.out.println(sobrenome);
         String resultado = ""+nome +" "+sobrenome;
-        JOptionPane.showMessageDialog(null, "Esse é o seu nome completo :"+resultado , "Mensagem", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Esse é o seu nome completo :"+resultado , "a", JOptionPane.INFORMATION_MESSAGE);
     }
 }
